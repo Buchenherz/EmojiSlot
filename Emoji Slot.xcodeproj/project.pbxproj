@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		740715921D52952A00682DEB /* WinLoseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740715911D52952A00682DEB /* WinLoseModel.swift */; };
 		74476A651D4B629900DC9878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74476A641D4B629900DC9878 /* AppDelegate.swift */; };
 		74476A671D4B629900DC9878 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74476A661D4B629900DC9878 /* ViewController.swift */; };
 		74476A6A1D4B629900DC9878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74476A681D4B629900DC9878 /* Main.storyboard */; };
 		74476A6C1D4B629900DC9878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74476A6B1D4B629900DC9878 /* Assets.xcassets */; };
 		74476A6F1D4B629900DC9878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74476A6D1D4B629900DC9878 /* LaunchScreen.storyboard */; };
+		74476A771D4B62C300DC9878 /* EmojiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74476A761D4B62C300DC9878 /* EmojiModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		740715911D52952A00682DEB /* WinLoseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinLoseModel.swift; sourceTree = "<group>"; };
 		74476A611D4B629900DC9878 /* Emoji Slot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Slot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74476A641D4B629900DC9878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74476A661D4B629900DC9878 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		74476A6B1D4B629900DC9878 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74476A6E1D4B629900DC9878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74476A701D4B629900DC9878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74476A761D4B62C300DC9878 /* EmojiModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				74476A6B1D4B629900DC9878 /* Assets.xcassets */,
 				74476A6D1D4B629900DC9878 /* LaunchScreen.storyboard */,
 				74476A701D4B629900DC9878 /* Info.plist */,
+				74476A761D4B62C300DC9878 /* EmojiModel.swift */,
+				740715911D52952A00682DEB /* WinLoseModel.swift */,
 			);
 			path = "Emoji Slot";
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				74476A671D4B629900DC9878 /* ViewController.swift in Sources */,
+				740715921D52952A00682DEB /* WinLoseModel.swift in Sources */,
 				74476A651D4B629900DC9878 /* AppDelegate.swift in Sources */,
+				74476A771D4B62C300DC9878 /* EmojiModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +303,7 @@
 				74476A751D4B629900DC9878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
